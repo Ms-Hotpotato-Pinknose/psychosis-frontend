@@ -7,7 +7,7 @@ document.getElementById('screenerForm').addEventListener('submit', async functio
   }
 
   try {
-    const response = await fetch("https://your-backend-url.herokuapp.com/assess", {
+    const response = await fetch("https://psychosis-backend.onrender.com/assess", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(jsonData)
